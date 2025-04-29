@@ -37,14 +37,18 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="hero text-center d-flex align-items-center justify-content-center text-white">
-    <div>
-      <h1 class="display-4 fw-bold">Elegant Stitches</h1>
-      <p class="lead">Custom Clothing, Alterations & Design for Every Occasion</p>
-      <a href="#contact" class="btn btn-warning btn-lg mt-3">Get Started</a>
-    </div>
-  </section>
+ <!-- Hero Section -->
+<section class="hero position-relative text-center d-flex align-items-center justify-content-center">
+  <!-- Dark Overlay -->
+  <div class="position-absolute  top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
+
+  <!-- Content -->
+  <div class="position-relative text-white" style="z-index: 2;">
+    <h1 class="display-4 fw-bold">Elegant Stitches</h1>
+    <p class="lead">Custom Clothing, Alterations & Design for Every Occasion</p>
+    <a href="#contact" class="btn btn-warning btn-lg mt-3">Get Started</a>
+  </div>
+</section>
 
   <!-- Services -->
   <section id="services" class="container py-5">
